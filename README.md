@@ -52,8 +52,16 @@ The web service is now hosted on Render.com, and you can access the endpoint at 
 
 Please feel free to make POST requests to this endpoint with appropriate JSON bodies to test the identity reconciliation feature.
 
-For any questions or assistance regarding database access, feel free to contact us at alpesh57678@gmail.com
+**Database Access for Testing**
 
+For testing purposes, we have set up a non-critical database on a remote server. You can access the database using the following credentials:
+
+- Host: sql6.freesqldatabase.com
+- User: sql6637212
+- Password: 5QR7s3hIdc
+- Database: sql6637212
+
+The database contains only task-related data and does not include any sensitive information.
 
 Happy testing!
 
