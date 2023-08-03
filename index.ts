@@ -19,10 +19,10 @@ const app = express();
 const port = 3000; // Change this to the desired port
 
 const pool: Pool = createPool({
-  host: 'sql6.freesqldatabase.com',
-  user: 'sql6637212',
-  password: '5QR7s3hIdc',
-  database: 'sql6637212',
+  host: process.env.DB_HOST,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASSWORD,
+  database: process.env.DB_DATABASE,
   connectionLimit: 10,
 });
 
