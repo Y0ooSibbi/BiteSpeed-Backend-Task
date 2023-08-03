@@ -16,7 +16,7 @@ interface Contact {
 }
 
 const app = express();
-const port = 3000; // Change this to the desired port
+const port = process.env.PORT || 3000; // Change this to the desired port
 
 const pool: Pool = createPool({
   host: process.env.DB_HOST,
